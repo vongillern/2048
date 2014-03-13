@@ -298,8 +298,11 @@ hr {
   font-size: 55px;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
   -webkit-transition-property: top, left;
-  -moz-transition-property: top, left; }
+  -moz-transition-property: top, left;
+  transition-property: top, left;  
+  }
   .tile.tile-2 {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
